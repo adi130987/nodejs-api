@@ -1,0 +1,21 @@
+{
+  "name": "etools-request-interceptor",
+  "version": "1.0.0",
+  "description": "Request interceptor for etools apps that will handle authentication header setup for different APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "@types/express": "^4.0.39",
+    "@types/request": "^2.0.8"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "node-router": "^0.1.5",
+    "request": "^2.83.0"
+  }
+}
